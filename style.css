@@ -80,3 +80,37 @@ li a:hover {
     background-color: #00a030;
 }
  /* NAV BAR END */
+
+/* Animal table Start */
+
+table {
+  border-collapse: collapse; 
+  width: 75%; 
+  margin: 20px auto;
+  background-color: #f9f9f9; 
+  color: #333; 
+  border-radius: 10px; 
+}
+
+th {
+  background-color: #fd8e8e; 
+  color: white; 
+  padding: 10px; /* Add padding to table headers */
+}
+
+td {
+  padding: 10px; /* Add padding to table data cells */
+  text-align: center; 
+}
+
+caption {
+  font-size: 20px; 
+  padding: 10px; 
+  background-color: #ce2323;
+  color: white; 
+  border-radius: 8px 8px 0 0;
+}
+
+
+
+
