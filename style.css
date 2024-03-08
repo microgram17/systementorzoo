@@ -106,3 +106,67 @@ li a:hover {
     margin-right: 10px;
 }
 /* NEWSLETTER END */
+
+/* NAV BAR START */
+.nav-list {
+    position:fixed;
+    width: 100%;
+    top: 0%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #008d05;
+  }
+
+.nav-list li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #00a030;
+}
+ /* NAV BAR END */
+
+/* Animal table Start */
+
+table {
+  border-collapse: collapse; 
+  width: 75%; 
+  margin: 20px auto;
+  background-color: #f9f9f9; 
+  color: #333; 
+  border-radius: 10px; 
+}
+
+th {
+  background-color: #fd8e8e; 
+  color: white; 
+  padding: 10px; /* Add padding to table headers */
+}
+
+td {
+  padding: 10px; /* Add padding to table data cells */
+  text-align: center; 
+}
+
+caption {
+  font-size: 20px; 
+  padding: 10px; 
+  background-color: #ce2323;
+  color: white; 
+  border-radius: 8px 8px 0 0;
+}
+
+
+
+
