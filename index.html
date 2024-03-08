@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Systementor Zoo</title>
+    <link rel="stylesheet" href="style.css">
 </head>
     <body>
         <div class="container">
             <nav>
-                <ul class="nav-list"> 
+                <ul class="nav-list">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="index.html">About</a></li>
                     <li><a href="index.html">Contact</a></li>
@@ -36,22 +37,6 @@
                         <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Male_Kea_Milford_sound.jpg" height="250" alt="Parrot">
                     </div>
                 </div>
-                    <div>
-                        <h2>OUR NEWSLETTER</h2>
-                        <p>Fill in the form to stay updated</p>
-                        <form action="https://github.com/microgram17/systementorzoo" method="post">
-                            <label for="fname">First name</label>
-                            <input type="text" name="fname" placeholder="First name" required/>
-                            <label for="lname" name="lname">Last name</label>
-                            <input type="text" name="lname" placeholder="Last name" required/>
-                            <label for="email">Enter your email</label>
-                            <input type="email" name="email" placeholder="example@gmail.com" required/>
-                            <input type="date" name="date" required/>
-                            <label for="">subscribe</label>
-                            <img src="images\check.svg" alt="checkmark" />
-                            <input type="submit" value="subscribe" />
-                        </form>
-                    </div>
             </section>
             <table class="grid">
                 <thead>
@@ -126,6 +111,19 @@
                     </tr>
                 </tbody>
             </table>
+            <div class="newsletter">
+                <h2>OUR NEWSLETTER</h2>
+                <p>Fill in the form to stay up to date!</p>
+                <form action="https://http-echo-server.azurewebsites.net/api/httpEchoDemo" method="post">
+                    <input class="item-1 formitem" type="text" name="fname" placeholder="First name" required/>
+                    <input class="item-2 formitem" type="text" name="lname" placeholder="Last name" required/>
+                    <input class="item-3 formitem" type="email" name="email" placeholder="mail@example.com" required/>
+                    <div class="items4-5">
+                        <input class="item-4 formitem" type="number" name="age" min="15" max="100" placeholder="age" required/>
+                        <button class="item-5 formitem" type="submit"><img src="images\check.svg" alt="checkmark" />subscribe</button>
+                    </div>
+                </form>
+            </div>
         </main>
     </body>
 </html>
