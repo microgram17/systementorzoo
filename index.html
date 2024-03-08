@@ -10,17 +10,20 @@
         <div class="container">
             <nav>
                 <ul class="nav-list">
+                    <li><a href="#activities">Activites</a></li>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="index.html">Contact</a></li>
+                    <li><a href="#newsletter">Newsletter</a></li>
                 </ul>
             </nav>
-            <img src="images/background.jpg" width="800" height="600">
         </div>
-        <main> 
-            <header>
-                <h1 class="name">Systementor Zoo</h1>
-            </header>
+        <main>
+            <div class="hero-image" alt="image of parrots">
+                <div class="hero-text">
+                    <header>
+                        <h1>Systementor Zoo</h1>
+                    </header>
+                </div>
+            </div>
             <section class="animals">
                 <h2>Animals</h2>
                 <p>Here you can see all of Systemertor Zoo animals.</p>
@@ -31,11 +34,11 @@
                         <li>Chickens</li>
                         <li>Parrots</li>
                     </ul>
-                    <div>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Norwegian_Elkhound.jpg "height="250" alt="Dog">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Kattunge_%28vildkatt%29_Ystad_-2020.jpg" height="250" alt="Cat">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Mother_hen_with_chicks02.jpg" height="250" alt="Chicken">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Male_Kea_Milford_sound.jpg" height="250" alt="Parrot">
+                    <div class="animalimages">
+                        <img src="/images/luffy.jpg" height="500" alt="Dog">
+                        <img src="/images/nami.jpg" height="500" alt="Cat">
+                        <img src="/images/chicken.jpg" height="500" alt="Chicken">
+                        <img src="/images/ace.jpg" height="500" alt="Parrot">
                     </div>
                 </div>
             </section>
@@ -113,19 +116,6 @@
                     </tr>
                 </tbody>
             </table>
-            <div class="newsletter">
-                <h2>OUR NEWSLETTER</h2>
-                <p>Fill in the form to stay up to date!</p>
-                <form action="https://http-echo-server.azurewebsites.net/api/httpEchoDemo" method="post">
-                    <input class="item-1 formitem" type="text" name="fname" placeholder="First name" required/>
-                    <input class="item-2 formitem" type="text" name="lname" placeholder="Last name" required/>
-                    <input class="item-3 formitem" type="email" name="email" placeholder="mail@example.com" required/>
-                    <div class="items4-5">
-                        <input class="item-4 formitem" type="number" name="age" min="15" max="100" placeholder="age" required/>
-                        <button class="item-5 formitem" type="submit"><img src="images\check.svg" alt="checkmark" />subscribe</button>
-                    </div>
-                </form>
-            </div>
             <table>
                 <h2>Activites</h2>
                 <tr>
@@ -149,6 +139,22 @@
                     <td>Write Text</td>
                 </tr>
             </table>
+            <div id="newsletter" class="newsletter">
+                <h2>OUR NEWSLETTER</h2>
+                <p>Fill in the form to stay up to date!</p>
+                <form action="https://http-echo-server.azurewebsites.net/api/httpEchoDemo" method="post">
+                    <input class="item-1 formitem" type="text" name="fname" placeholder="First name" required/>
+                    <input class="item-2 formitem" type="text" name="lname" placeholder="Last name" required/>
+                    <input class="item-3 formitem" type="email" name="email" placeholder="mail@example.com" required/>
+                    <div class="items4-5">
+                        <input class="item-4 formitem" type="number" name="age" min="15" max="100" placeholder="age" required/>
+                        <button class="item-5 formitem" type="submit"><img src="images\check.svg" alt="checkmark" />subscribe</button>
+                    </div>
+                </form>
+            </div>
         </main>
+        <footer>
+
+        </footer>
     </body>
 </html>
