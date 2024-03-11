@@ -80,6 +80,18 @@ li a:hover {
   margin-left: 10%;
   margin-right: 25%;
 }
+
+.picture-container {
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.picture-container img {
+  width: 29%; 
+  height: auto;
+}
 /* ACTIVITIES END */
 
   .animalimages {
@@ -94,7 +106,6 @@ li a:hover {
   }
 
 /* Animal table Start */
-
 table {
   border-collapse: collapse; 
   width: 75%; 
@@ -159,7 +170,6 @@ caption {
     margin-right: 5px;
 }
 /* NEWSLETTER END */
-/* ANIMAL TABLE END */
 
 /* FOOTER START */
 
@@ -181,14 +191,3 @@ footer h3 {
   margin-top: 0; 
 }
 /* FOOTER END */
-
-/* Activities images Start*/
-.picture-container {
-  display: flex;
-}
-
-.picture-container img {
-  width: 33.33%; 
-  height: auto; 
-}
-/* Activites images End */
