@@ -107,11 +107,11 @@ table {
 th {
   background-color: #fd8e8e; 
   color: white; 
-  padding: 10px; /* Add padding to table headers */
+  padding: 10px; 
 }
 
 td {
-  padding: 10px; /* Add padding to table data cells */
+  padding: 10px; 
   text-align: center; 
 }
 
@@ -159,5 +159,36 @@ caption {
     margin-right: 5px;
 }
 /* NEWSLETTER END */
+/* ANIMAL TABLE END */
 
+/* FOOTER START */
 
+footer {
+  margin-top: 50px;
+  text-align: center;
+  width: 100%;
+  bottom: 50px;
+  background-color:  rgb(0, 90, 59);
+  display: flex; 
+  justify-content: space-around; 
+  flex-wrap: wrap;
+}
+
+footer h3 {
+  display: inline-block;
+  font-size: 20px;
+  color: white;
+  margin-top: 0; 
+}
+/* FOOTER END */
+
+/* Activities images Start*/
+.picture-container {
+  display: flex;
+}
+
+.picture-container img {
+  width: 33.33%; 
+  height: auto; 
+}
+/* Activites images End */
